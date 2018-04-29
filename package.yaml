@@ -1,0 +1,36 @@
+name: &name aeson-template
+version: 0.1.0.0
+synopsis: |
+  TODO
+description: |
+  TODO
+github: trskop/aeson-template
+license: BSD3
+license-file: LICENSE
+author: Peter Trško
+maintainer: peter.trsko@gmail.com
+copyright: (c) 2018 Peter Trško
+category: Text, Web, JSON
+
+extra-source-files:
+  - ChangeLog.md
+  - README.md
+
+dependencies:
+  - base
+
+  - aeson
+  - attoparsec
+  - bytestring
+# - case-insensitive
+# - lens
+  - template
+  - text
+  - unordered-containers
+  - vector
+
+ghc-options:
+  - -Wall
+
+library:
+  source-dirs: src
