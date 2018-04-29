@@ -1,7 +1,8 @@
 name: &name aeson-template
 version: 0.1.0.0
 synopsis: |
-  TODO
+  JSON-like format that supports variables, simple string interpolation, and
+  comments
 description: |
   TODO
 github: trskop/aeson-template
